@@ -1,9 +1,10 @@
-Benjamin.Piwowarski@lip6.fr
-luo@cse.ust.hk
+
+fstzgg@umac.mo
 
 
-Dear Prof. Yang,
-I am Chunbin Lin. I completed my Ph.D. in computer science at the University of California, San Diego (UCSD) under the supervision of Prof. Yannis Papakonstantinou in 2018. I am writing this email to request to serve as a program committee of DASFAA 2019.
+
+Dear Chiara,
+I am Chunbin Lin working at Amazon AWS. I completed my Ph.D. in computer science at the University of California, San Diego (UCSD) under the supervision of Prof. Yannis Papakonstantinou. I am writing this email to request to serve as a program committee of ISWC'19.
 
 I can fulfill the following responsibilities to be a program committee:
  - personally review submissions, 
@@ -11,10 +12,9 @@ I can fulfill the following responsibilities to be a program committee:
  - solicit quality papers for submission to the conference, and
  - publicize the conference.
 
-Please consider my request. 
-Attached is my resume.
+I really appreciate it if you can consider my request. 
+PS: Attached is my resume.
 
---
 Best,
 Chunbin
 http://chunbinlin.com/
