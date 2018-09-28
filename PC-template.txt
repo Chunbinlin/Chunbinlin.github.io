@@ -18,3 +18,24 @@ PS: Attached is my resume.
 Best,
 Chunbin
 http://chunbinlin.com/
+
+
+///////////////////////////////////////////////
+
+
+
+Dear Prof. Azzopardi,
+This is a greeting from Chunbin Lin. 
+May I request to serve as a program committee of ECIR'19? 
+I completed my Ph.D. in computer science at the University of California, San Diego (UCSD) under the supervision of Prof. Yannis Papakonstantinou. My research interest is building high-performance information retrieval systems. I can fulfill the following responsibilities to be a program committee:
+ - personally review submissions, 
+ - attend the Program Committee meeting, and
+ - solicit quality papers for submission to the conference, 
+
+Attached is my resume. Please consider my request.
+I am also open to any conferences/journals that you think I am eligible to serve as a PC/reviewer. 
+
+--
+Best,
+Chunbin
+http://chunbinlin.com/
