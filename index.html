@@ -1,540 +1,429 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Chunbin Lin</title>
-<link rel="shortcut icon" href="homepage/favicon.ico" type="favicon/ico" />
-<link rel="icon" type="image/png" href="homepage/favicon.ico" sizes="32x32">
-  
-
-<style type="text/css">
-body {
-	margin-left: 0.5cm;
-	margin-top: 0px;
-	margin-right: 0.5px;
-	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
-	font-family: Georgia, serif;
-}
-a {text-decoration: none}
-a {text-decoration: none}
-#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10 {
-	position: relative;
-	width: 600px;
-	padding: 0.4em;
-}
-</style>
-
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
 <body>
-
-<left>
-	<table width="800">
-		<tbody>
-			<tr align="middle">
-				<td align="left">
-					<font size="+2"><b>Chunbin Lin, Ph.D. </b></font>
-					<br><br>
-					Software Development Engineer <br>
-					Redshift (cloud data warehouse) <br>
-					Amazon Web Services, East Palo Alto  <br><br>
-					Email: lin.chunb@gmail.com
-					<br>
-				
-				</td>
-				<td align="right">
-					<img src="wordcloud-chunbin.png" height="186">
-					<img src="ChunbinLin.jpg" height="186">
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<hr align="left" width="800">
-	<table width="800">
-		<tbody>
-			<tr>
-				<td colspan="2">
-				<font size="+2"><b>Biography</b></font> <br>
-					Chunbin Lin works at Amazon Web Services (AWS) and he is working on <a href="https://aws.amazon.com/redshift/" target="_blank">AWS Redshift</a>, which is a column-oriented cloud data warehouse.<br><br>
-
-					Before that, he worked as an intern at Amazon, Informatica, and IBM. <br><br>
-
-					He received his PhD degree in computer science at the University of California, San Diego (UCSD) in 2018. He obtained his B.S. and M.S. degrees in computer science at the Renmin University of China (RUC) in 2010 and 2013 respectively.
-				</td>
-			</tr>
-		</tbody>
-	</table>
+<div id="container">
+    <nav>
+    	<div class="width">
+        		<ul>
+            		<li class="start selected"><a href="#home">Home</a></li>
+              	  	<li><a href="#publication">Publication</a></li>
+              	 	<li class="end"><a href="#service">Service</a></li>
+            	</ul>
+    	</div>
+    </nav>
 
 
-	<hr align="left" width="800">
-	<table width="800">
-	<tbody>
-		<tr>
-			<td>
-				<font size="+2"><b>Research Interests </b></font> <br>
-					<ul>
-						<li>
-							Database systems: distributed databases, row/column store, database compression, OLAP, OLTP
-						</li>
-						<li>
-							Data integration: entity matching, similarity join and search
-						</li>
-						<li>
-							Search engine systems: index, compression, top-k search, query optimization
-						</li>
-						<li>
-							Semi-structure query processing: XML index, XML keyword search, XML twig search
-						</li>
-						<li>
-							Approximate query processing: error-bounded OLAP, approximate IoT queries, lossy compression
-						</li>
-					</ul>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+    <div id="body" class="width">
+		<section id="content">
+	    <article id = "home">
+			<table cellspacing="0" border="0">
+                <tr>
+                    <td  width="300">
+                        <img src="ChunbinLin.jpg" height="150">
+                        <img src="wordcloud-chunbin.png" height="150">
+                    </td>
+                    <td>
+                        <h2>Chunbin Lin, Ph.D.</h2>
+                        Software Development Engineer<br>
+                        Redshift (cloud data warehouse)<br>
+                        Amazon Web Services, East Palo Alto<br>
+                        Email: lichunbi@amazon.com <br>
+                        <a class="btn btn-success btn-xs" href="https://dblp.org/pers/l/Lin:Chunbin.html" target="_blank">DBLP</a>
+                        <a class="btn btn-primary btn-xs" href="https://scholar.google.com/citations?user=TPIzmbsAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
+                    </td>
+                </tr>
+            </table>
 
-	<hr align="left" width="800">
-		<table width="800">
-		<tbody>
-			<tr>
-				<td>
-					<font size="+2"><b>News </b></font> <br>
-					<ul>
-						<li>
-							<b>04/16/2020.</b> Paper "Boosting Approximate Dictionary-based Entity Extraction with Synonyms" is accepted by Information Sciences (Impact Factor: 5.524).
-						</li>
-						<li>
-							<b>02/16/2020.</b> Paper "Approximate Analytics System over Compressed Time Series with Tight Deterministic Error Guarantees" is accepted by PVLDB'20.
-						</li>
-						<li>
-							<b>02/13/2020.</b> Paper "Deep Neural Networks based Motif Discovery with Similarity Guarantees" is accepted by DASFAA'20.
-						</li>
-						<li>
-							<b>02/06/2020.</b> Paper "Fast Error-tolerant Location-aware Query Autocompletion" is accepted by ICDE'20.
-						</li>
-						<li>
-							<b>11/05/2019.</b> Gave a talk about "string similarity joins" at <a href="https://www.ruc.edu.cn/en">Renmin University of China</a>.
-						</li>
-						<li>
-							<b>11/04/2019.</b> Gave a talk about "approximate query processing" at <a href="https://www.tsinghua.edu.cn/publish/thu2018en/index.html">Tsinghua University</a>.
-						</li>
-						<li>
-							<b>11/03/2019.</b> Gave a tutorial talk about "syn­ergy of data­base tech­niques and ma­chine learn­ing mod­els for string sim­il­ar­ity search and join" at <a href="http://www.cikm2019.net/tutorials.html">CIKM'19</a> with Jiaheng Lu, Jin Wang, and Chen Li.
-						</li>
-						<li>
-							<b>Sep 2019.</b> Our project on automatic workload management (auto-wlm) and query priorities is released <a href="https://aws.amazon.com/about-aws/whats-new/2019/09/amazon-redshift-announces-automatic-workload-management-and-query-priorities/" target="_blank">[Amazon Redshift Announcement]</a>
-						</li>
-						<li>
-							<b>Aug 2019.</b> Our tutorial about Text Search and Matching is accepted by CIKM 2019 <a href="https://www.helsinki.fi/en/researchgroups/unified-database-management-systems-udbms/tutorial/cikm-2019-tutorial" target="_blank"> [Details]</a>
-						</li>
-					</ul>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+            <br>
+            Chunbin Lin works at Amazon Web Services (AWS) and he is working on <a href="https://aws.amazon.com/redshift/" target="_bla'">Amazon Redshift</a>, which is the most popular and fastest cloud data warehouse. <br>
+            Before that, he worked as an intern at Amazon, Informatica, and IBM.<br>
 
-	<hr align="left" width="800">
-	<table width="800">
-	<tbody><tr>
-		<td>
-			<font size="+2"><b>Publications</b></font> (<a href="http://dblp.org/search?q=author%3AChunbin_Lin%3A" target="_blank">[DBLP]</a>, <a href="https://scholar.google.com/citations?user=TPIzmbsAAAAJ&hl=en">[Google Scholar]</a>) <br><br>
-			
-			<font size="+1"><b>Tutorial</b></font> <br>
-			<ul>
-				<li>
-                   Jiaheng Lu, <b>Chunbin Lin</b>, Jin Wang, Chen Li<br>
-                   <a href="https://www.helsinki.fi/sites/default/files/atoms/files/full-version.pdf" target="_blank">Synergy of Database Techniques and Machine Learning Models for String Similarity Search and Join. </a><br>
-                   <i>ACM International Conference on Information and Knowledge Management (<b>CIKM</b>)</i>, 2019.<p>
-				</li>
-			</ul>
+            He received his PhD degree in computer science at the <a href="https://ucsd.edu/" target="_blank"> University of California, San Diego (UCSD)</a> in 2018. He obtained his B.S. and M.S. degrees in computer science at the <a href="https://www.ruc.edu.cn/en" target="_blank">Renmin University of China (RUC)</a> in 2010 and 2013, respectively.<br><br>	
+            
+            Research Interests:<br>
+            <ul class="styledlist">
+                <li>Database systems: workload management (WLM), index building, database compression, query optimization</li>
+                <li>Data integration: entity matching, similarity join and search</li>
+                <li>Search engine systems: index, compression, top-k search, query optimization </li>
+                <li>Semi-structure query processing: XML/JSON index, XML keyword search, XML twig search</li>
+                <li>Approximate query processing: approximate IoT queries, lossy compression</li>
+            </ul>
 
-			<font size="+1"><b>Journal Papers</b></font> <br>
-			* denotes corresponding author<br>
-			<ul>
-				<li>
-					Jin Wang, <b>Chunbin Lin*</b>, Mingda Li, Carlo Zaniolo.<br>
-					<a href="https://doi.org/10.1016/j.ins.2020.04.025" target="_blank">Boosting Approximate Dictionary-based Entity Extraction with Synonyms</a>.<br>
-					<i><b>Information Sciences</b></i>, 2020 (Impact Factor: 5.524), Volume 530, Pages 1-21
-					<p>
-				</li>
+            PhD thesis: <a href="https://escholarship.org/uc/item/4rc3108c" target="_blank">Accelerating Analytic Queries on Compressed Data</a>
+	    <hr>
+            <h2 id = "publication">Publications</h2>
+            <h3>Journal Articles</h3>
+            (* denotes corresponding author)       
+            <table class="table table-hover">
+                <tbody>
+                    <tr>
+                        <td><span class="label label-primary">J3</span></td>
+                        <td>
+                            Boosting Approximate Dictionary-based Entity Extraction with Synonyms<br>
+                            Jin Wang, <b>Chunbin Lin</b>*, Mingda Li, Carlo Zaniolo<br>
+                            <b>Information Sciences</b>, Volume 530, pages: 1-21, 2020. (Impact Factor: 5.524)<br>
+                            <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0020025520303303" class="btn btn-info btn-xs">Link</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">J2</span></td>
+                        <td>
+                            Optimal Algorithms for Selecting Top-k Combinations of Attributes: Theory and Applications<br>
+                            <b>Chunbin Lin</b>*, Jiaheng Lu, Zhewei Wei, Jianguo Wang, Xiaokui Xiao<br>
+                            The International Journal on Very Large Data Bases (<b>VLDB Journal</b>), Volume 27, Issue 1, pages: 27-52, 2018<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/10.1007/s00778-017-0485-2" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/VLDBJ-18.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">J1</span></td>
+                        <td>
+                            Boosting the Quality of Approximate String Matching by Synonyms<br>
+                            Jiaheng Lu, <b>Chunbin Lin</b>, Wei Wang, Chen Li, Xiaokui Xiao<br>
+                            ACM Transactions on Database Systems (<b>TODS</b>), Volume 40, Issue 3, pages: 1-42, 2015<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/2818177" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/TODS-15.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
-				<li>
-					<b>Chunbin Lin</b>, Jiaheng Lu, Zhewei Wei, Jianguo Wang, Xiaokui Xiao.<br>
-					<a href="https://link.springer.com/article/10.1007%2Fs00778-017-0485-2" target="_blank">Optimal Algorithms for Selecting Top-k Combinations of Attributes: Theory and Applications</a>.<br>
-					<i>The International Journal on Very Large Data Bases (<b>VLDB Journal</b>)</i>, 2018
-					<p>
-				</li>
+            <h3>Conference Papers</h3>   
+            <table class="table table-hover">
+                <tbody>
+                    <tr>
+                        <td><span class="label label-primary">C18</span></td>
+                        <td>
+                            Plato: Approximate Analytics over Compressed Time Series with Tight Deterministic Error Guarantees<br>
+                            <b>Chunbin Lin</b>, Etienne Boursier, Yannis Papakonstantinou<br>
+                            Proceedings of the VLDB Endowment (<b>PVLDB</b>), 2020<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.14778/3384345.3384357" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/VLDB-2020.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C17</span></td>
+                        <td>
+                            Fast Error-tolerant Location-aware Query Autocompletion<br>
+                            Jin Wang, <b>Chunbin Lin</b><br>
+                            IEEE International Conference on Data Engineering (<b>ICDE</b>), 2020<br>
+                            <a target="_blank" href="https://conferences.computer.org/icde/2020/pdfs/ICDE2020-5acyuqhpJ6L9P042wmjY1p/290300b998/290300b998.pdf" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/ICDE-2020.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C16</span></td>
+                        <td>
+                            Deep Neural Networks based Motif Discovery with Similarity Guarantees<br>
+                            Chuitian Rong, Ziliang Chen, <b>Chunbin Lin</b><br>
+                            International Conference on Database Systems for Advanced Applications (<b>DASFAA</b>), 2020<br>
+                            <a target="_blank" href="" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C15</span></td>
+                        <td>
+                            Synergy of Database Techniques and Machine Learning Models for String Similarity Search and Join<br>
+                            Jiaheng Lu, <b>Chunbin Lin</b>, Jin Wang, Chen Li<br>
+                            Proceedings of the 28th ACM International Conference on Information and Knowledge Management (<b>CIKM</b>), pages: 2975-2976, 2019<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3357384.3360319" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/CIKM-2019.pdf" class="btn btn-warning btn-xs">PDF</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/CIKM-full-2019.pdf" class="btn btn-primary btn-xs">Full Version (PDF)</a>
+                            <a target="_blank" href="https://www.helsinki.fi/en/researchgroups/unified-database-management-systems-udbms/tutorial/cikm-2019-tutorial" class="btn btn-success btn-xs">Website</a>
+                        </td>
+                    </tr>
 
-				<li>
-					Jiaheng Lu, <b>Chunbin Lin</b>, Wei Wang, Chen Li, Xiaokui Xiao.<br>
-					<a href="http://dl.acm.org/citation.cfm?id=2818177"  target="_blank">Boosting the Quality of Approximate String Matching by Synonyms</a>.<br>
-					<i>ACM Transactions on Database Systems (<b>TODS</b>)</i>, 40(3), 2015
-				</li>
-			</ul>
+                    <tr>
+                        <td><span class="label label-primary">C14</span></td>
+                        <td>
+                            MF-Join: Efficient Fuzzy String Similarity Join with Multi-level Filtering<br>
+                            Jin Wang, <b>Chunbin Lin</b>, Carlo Zaniolo<br>
+                            IEEE International Conference on Data Engineering (<b>ICDE</b>), 2019<br>
+                            <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8731566" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/ICDE-2019a.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C13</span></td>
+                        <td>
+                            Scalable Metric Similarity Join Using MapReduce<br>
+                            Jiacheng Wu, Yong Zhang, Jin Wang, <b>Chunbin Lin</b>, Yingjia Fu, Chunxiao Xing<br>
+                            IEEE International Conference on Data Engineering (<b>ICDE</b>), 2019<br>
+                            <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8731542" class="btn btn-info btn-xs">Link</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C12</span></td>
+                        <td>
+                            An Efficient Sliding Window Approach for Approximate Entity Extraction with Synonyms<br>
+                            Jin Wang, <b>Chunbin Lin</b>, Mingda Li, Carlo Zaniolo<br>
+                            International Conference on Extending Database Technology (<b>EDBT</b>), 2019<br>
+                            <a target="_blank" href="https://pdfs.semanticscholar.org/c19e/f81fd1d5a482dfbb57df71e64e465fec2473.pdf" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/EDBT-2019.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C11</span></td>
+                        <td>
+                            An Experimental Study of Bitmap Compression vs. Inverted List Compression<br>
+                            Jianguo Wang, <b>Chunbin Lin</b>, Yannis Papakonstantinou, Steven Swanson<br>
+                            Proceedings of ACM Conference on Management of Data (<b>SIGMOD</b>), pages: 993-1008, 2017<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3035918.3064007" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/SIGMOD-2017.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C10</span></td>
+                        <td>
+                            MILC: Inverted List Compression in Memory<br>
+                            Jianguo Wang, <b>Chunbin Lin</b>, Ruining He, Moojin Chae, Yannis Papakonstantinou, Steven Swanson<br>
+                            Proceedings of the VLDB Endowment (<b>PVLDB</b>), Volume 10, Issue 8, pages: 853-864, 2017<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.14778/3090163.3090164" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/VLDB-2017a.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C9</span></td>
+                        <td>
+                            Towards heterogeneous keyword search<br>
+                            Chunbin Lin, Jianguo Wang, Chuitian Rong<br>
+                            Proceedings of the ACM Turing 50th Celebration Conference-China (ACM TUR-C), pages: 1-6, 2017<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3063955.3064802" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/ACM-TUR-C.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C8</span></td>
+                        <td>
+                            Fast and Scalable Distributed Set Similarity Joins for Big Data Analytics<br>
+                            Chuitian Rong, <b>Chunbin Lin</b>, Yasin Silva, Jianguo Wang, Wei Lu, Xiaoyong Du<br>
+                            Proceedings of the International Conference on Data Engineering (<b>ICDE</b>), pages: 1059-1070, 2017<br>
+                            <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7930047" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/ICDE-2017.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C7</span></td>
+                        <td>
+                            Answer yes/no queries in search engines<br>
+                            <b>Chunbin Lin</b><br>
+                            The Conference on Innovative Data Systems Research (<b>CIDR</b>), 2017<br>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/CIDR-2017.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
 
-			<font size="+1"><b>Selected Conference Papers</b></font> <br>
-			<ul>
-				<li>
-					<b>Chunbin Lin</b>, Etienne Boursier, Yannis Papakonstantinou<br>
-					<a href="#">Approximate Analytics System over Compressed Time Series with Tight Deterministic Error Guarantees</a> <br>
-					<i>Proceedings of the VLDB Endowment (<b>PVLDB</b>)</i>, 2020.
-					<p>
-				</li>
-				<li>
-					Jin Wang, <b>Chunbin Lin</b><br>
-					<a href="#">Fast Error-tolerant Location-aware Query Autocompletion</a> <br>
-					<i>IEEE International Conference on Data Engineering (<b>ICDE</b>)</i>, 2020.
-					<p>
-				</li>
-				<li>
-					Chuitian Rong, Ziliang Chen, <b>Chunbin Lin</b><br>
-					<a href="#">Deep Neural Networks based Motif Discovery with Similarity Guarantees</a> <br>
-					<i>International Conference on Database Systems for Advanced Applications (<b>DASFAA</b>)</i>, 2020.
-					<p>
-				</li>
-				<li>
-					Jin Wang, <b>Chunbin Lin</b>, Carlo Zaniolo<br>
-					<a href="http://yellowstone.cs.ucla.edu/~jinwang/jinwang_files/icde19-mfjoin.pdf" target="_blank">MF-Join: Efficient Fuzzy String Similarity Join with Multi-level Filtering</a>
-					<br>
-					<i>IEEE International Conference on Data Engineering (<b>ICDE</b>)</i>, 2019.<p>
-				</li>	
-				<li>
-					Jiacheng Wu, Yong Zhang, Jin Wang, <b>Chunbin Lin</b>, Yingjia Fu, Chunxiao Xing<br>
-					<a href="#">A Scalable Framework for Metric Similarity Join using MapReduce</a><br>
-					<i>IEEE International Conference on Data Engineering (<b>ICDE</b>)</i>, 2019.
-					<p>
-				</li>
-				<li>
-					Jin Wang, <b>Chunbin Lin</b>, Mingda Li, Carlo Zaniolo<br>
-					<a href="#">An Efficient Sliding Window Approach for Approximate Entity Extraction with Synonyms</a> <br>
-					<i>International Conference on Extending Database Technology (<b>EDBT</b>)</i>, 2019.
-					<p>
-				</li>
-				<li>
-					Jianguo Wang, <b>Chunbin Lin</b>, Yannis Papakonstantinou, Steven Swanson<br>
-					<a href="http://dl.acm.org/citation.cfm?doid=3035918.3064007" target="_blank">An Experimental Study of Bitmap Compression vs. Inverted List Compression</a> <br>
-					<i>Proceedings of ACM Conference on Management of Data (<b>SIGMOD</b>)</i>, 2017.
-					<p>
-				</li>
-				<li>
-					Jianguo Wang, <b>Chunbin Lin</b>, Ruining He, Moojin Chae, Yannis Papakonstantinou, Steven Swanson<br>
-					<a href="http://www.vldb.org/pvldb/vol10/p853-wang.pdf" target="_blank">MILC: Inverted List Compression in Memory</a> <br>
-					<i>Proceedings of the VLDB Endowment (<b>PVLDB</b>)</i>, 2017.
-					<p>
-				</li>
-				
-				<li>
-					Chuitian Rong, <b>Chunbin Lin</b>, Yasin Silva, Jianguo Wang, Wei Lu, Xiaoyong Du<br>
-					<a href="http://ieeexplore.ieee.org/abstract/document/7930047/" target="_blank">Fast and Scalable Distributed Set Similarity Joins for Big Data Analytics</a> <br>
-					<i>Proceedings of the  International Conference on Data Engineering (<b>ICDE</b>)</i>, 2017.
-					<p>
-				</li>
-				
-<!-- 				<li>
-					 <b>Chunbin Lin</b><br>
-					<a href="homepage/papers/CIDR2017.pdf" target="_blank">Answer yes/no questions in search engines</a><br>
-					<i>The Conference on Innovative Data Systems Research (CIDR)</i>, 2017.
-					<p>
-				</li>  -->
-				
-				<li>
-					<b>Chunbin Lin</b>, Benjamin Mandel, Yannis Papakonstantinou, Matthias Springer.<br>
-					<a href="http://www.vldb.org/pvldb/vol10/p265-lin.pdf" target="_blank">Fast In-Memory SQL Analytics on Typed Graphs</a> <br>
-					<i>Proceedings of the VLDB Endowment (<b>PVLDB</b>)</i>, 10(3), pages 265-276, 2016.
-					<p>
-				</li> 	
-				
-				<li>
-					Jing Li, Hung-Wei Tseng, <b>Chunbin Lin</b>, Yannis Papakonstantinou, Steven Swanson.<br>
-					<a href="http://www.vldb.org/pvldb/vol9/p1647-li.pdf" target="_blank">HippogriffDB: Balancing I/O and GPU Bandwidth in Big Data Analytics.</a><br>
-					<i>Proceedings of the VLDB Endowment (<b>PVLDB</b>)</i>, 9(14), pages 1647-1658, 2016.
-					<p>
-				</li>
-				
-				<li>
-					Ruining He, <b>Chunbin Lin</b>, Jianguo Wang, Julian McAuley.<br>
-					<a href="homepage/papers/IJCAI2016.pdf"  target="_blank">Sherlock: Sparse Hierarchical Embeddings for Visually-aware One-class Collaborative Filtering</a>.<br>
-					<i>Proceedings of the International Joint Conference on Artificial Intelligence (<b>IJCAI</b>)</i>, pages 3740-3746, 2016.
-					<p>
-				</li>
-				<li>
-					Jiaheng Lu, <b>Chunbin Lin</b>, Wei Wang, Chen Li, Haiyong Wang.<br>
-					<a href="https://dl.acm.org/citation.cfm?id=2465313"  target="_blank">String similarity measures and joins with synonyms</a><br>
-					<i>Proceedings of ACM Conference on Management of Data (<b>SIGMOD</b>)</i>, 2013.
-					<p>
-				</li>
-				
-				<!-- <li>
-					Huayu Wu, <b>Chunbin Lin</b>, Tok Wang Ling, Jiaheng Lu.<br>
-					<a href="http://link.springer.com/chapter/10.1007/978-3-642-32600-4_24#page-1"  target="_blank">Processing XML Twig Pattern Query with Wildcards</a>.<br>
-					<i>Proceedings of the  International Conference on Database and Expert Systems Applications (DEXA)</i>, pages 326-341, 2012.
-				</li> -->
-				
-				<li>
-					Jiaheng Lu, Pierre Senellart, <b>Chunbin Lin</b>, Xiaoyong Du, Shan Wang, Xinxing Chen.<br>
-					<a href="https://dl.acm.org/citation.cfm?id=2213883"  target="_blank">Optimal top-k generation of attribute combinations based on ranked lists</a><br>
-					<i>Proceedings of ACM Conference on Management of Data (<b>SIGMOD</b>)</i>,  2012.
-					<p>
-				</li>
-			</ul>
-			
-			<font size="+1"><b>Demo Papers</b></font> <br>
-			<ul>
-				<li>
-					<b>Chunbin Lin</b>, Jianguo Wang, Yannis Papakonstantinou.<br>
-					<a href="https://ieeexplore.ieee.org/document/7930086/" target="_blank">GQFast: Fast Graph Exploration with Context-Aware Autocompletion</a>.<br>
-					<i>Proceedings of the  International Conference on Data Engineering (<b>ICDE</b>)</i>, pages 1389-1390, 2017.
-					<p>
-				</li>
-				<li>
-					<b>Chunbin Lin</b>, Jianguo Wang<br>
-					<a href="http://papers.www2017.com.au.s3-website-ap-southeast-2.amazonaws.com/companion/p237.pdf" target="_blank">SpiderX: Fast XML Exploration System</a><br>
-					<i>Proceedings of International World Wide Web Conference (<b>WWW</b>)</i>, 2017.
-					<p>
-				</li>
-				
-				<li>
-					<b>Chunbin Lin</b>, Jianguo Wang, Jiaheng Lu<br>
-					<a href="http://papers.www2017.com.au.s3-website-ap-southeast-2.amazonaws.com/companion/p819.pdf" target="_blank">Location-sensitive Query Auto-completion</a> <br>
-					<i>Proceedings of International World Wide Web Conference (<b>WWW</b>)</i>, 2017.
-					<p>
-				</li>
-				<li>
-					Ruining He, <b>Chunbin Lin</b>, Julian McAuley.<br>
-					<a href='http://dl.acm.org/citation.cfm?doid=2872518.2890534'  target="_blank">Fashionista: A Fashion-aware Graphical System for Exploring Visually Similar Items</a>.<br>
-					<i>Proceedings of the International Conference on World Wide Web (<b>WWW</b>)</i>, pages 199-202, 2016.
-					<p>
-				</li>
-				<li>
-					<b>Chunbin Lin</b>, Jiaheng Lu, Tok Wang Ling, Bogdan Cautis.<br>
-					<a href='https://ieeexplore.ieee.org/abstract/document/6228184'  target="_blank">LotusX: A Position-Aware XML Graphical Search System with Auto-Completion</a>.<br>
-					<i>Proceedings of the  International Conference on Data Engineering (<b>ICDE</b>)</i>, pages 1265-1268, 2012.
-				</li>
-			</ul>
-		</td>
-	</tr>
-	</tbody></table>
-	<hr align="left" width="800">
+                    <tr>
+                        <td><span class="label label-primary">C6</span></td>
+                        <td>
+                            Fast In-Memory SQL Analytics on Typed Graphs<br>
+                            <b>Chunbin Lin</b>, Benjamin Mandel, Yannis Papakonstantinou, Matthias Springer<br>
+                            Proceedings of the VLDB Endowment (<b>PVLDB</b>), Volume 10, Issue 3, pages: 265-276, 2016<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.14778/3021924.3021941" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/VLDB-2016a.pdf" class="btn btn-warning btn-xs">PDF</a>
+                            <a target="_blank" href="http://137.110.160.52/GQFast-System/index.jsp" class="btn btn-success btn-xs">Website</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C5</span></td>
+                        <td>
+                            HippogriffDB: Balancing I/O and GPU Bandwidth in Big Data Analytics<br>
+                            Jing Li, Hung-Wei Tseng, <b>Chunbin Lin</b>, Yannis Papakonstantinou, Steven Swanson<br>
+                            Proceedings of the VLDB Endowment (<b>PVLDB</b>), Volume 9, Issue 14, pages: 1647-1658, 2016<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.14778/3007328.3007331" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/VLDB-2016b.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C4</span></td>
+                        <td>
+                            Sherlock: Sparse Hierarchical Embeddings for Visually-aware One-class Collaborative Filtering<br>
+                            Ruining He, <b>Chunbin Lin</b>, Jianguo Wang, Julian McAuley<br>
+                            Proceedings of the International Joint Conference on Artificial Intelligence (<b>IJCAI</b>), pages: 3740-3746, 2016<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.5555/3061053.3061142" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/IJCAI-2016.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C3</span></td>
+                        <td>
+                            String similarity measures and joins with synonyms<br>
+                            Jiaheng Lu, <b>Chunbin Lin</b>, Wei Wang, Chen Li, Haiyong Wang<br>
+                            Proceedings of ACM Conference on Management of Data (<b>SIGMOD</b>), pages: 373-384, 2013<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/2463676.2465313" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/SIGMOD-2013.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C2</span></td>
+                        <td>
+                            Processing XML Twig Pattern Query with Wildcards<br>
+                            Huayu Wu, <b>Chunbin Lin</b>, Tok Wang Ling, Jiaheng Lu<br>
+                            International Conference on Database and Expert Systems Applications (<b>DEXA</b>), pages: 326-341, 2012<br>
+                            <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-642-32600-4_24" class="btn btn-info btn-xs">Link</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">C1</span></td>
+                        <td>
+                            Optimal top-k generation of attribute combinations based on ranked lists<br>
+                            Jiaheng Lu, Pierre Senellart, <b>Chunbin Lin</b>, Xiaoyong Du, Shan Wang, Xinxing Chen<br>
+                            Proceedings of ACM Conference on Management of Data (<b>SIGMOD</b>), pages: 409-420, 2012<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/2213836.2213883" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/SIGMOD-2012.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
-	<table width="800">
-		<tbody>
-			<tr>
-				<td>
-					<font size="+2"><b>Academic services</b></font> <br>
-					<ul>
-						<li>
-							<b> [Program Committee] </b>
-							<ul>
-								<li>AAAI Conference on Artificial Intelligence (AAAI'20)</li>
-								<li>Applied AI for Database Systems and Applications (AIDB@VLDB 2020)</li>
-								<li>International Conference on Distributed Computing Systems (ICDCS'20)</li>
-								<li>The Web Conference (WWW'19) </li>
-								<li>International Conference on Database Systems for Advanced Applications (DASFAA'19, DASFAA'20) </li>
-								<li>International Joint Conferences on Artificial Intelligence (IJCAI'19, IJCAI'20) </li>
-								<li>International Semantic Web Conference (ISWC'19)</li>
-								<li>The ACM Special Interest Group on Management of Data (SIGMOD'19) (Industrial Track)</li>
-								<li>International Conference on Data Mining (SDM'19, SDM'20)</li>
-								<li>The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD'19, PAKDD'20)</li>
-								<li>European Conference on Information Retrieval (ECIR'19, ECIR'20) </li>
-								<li>International Conference on Data Storage and Data Engineering (DSDE'19) </li>
-								<li>International Conference on Data Mining and Database (DMDB'19) </li>
-								<li>Workshop on Scalable Cloud Data Management (SCDM'18, SCDM'19)</li>
-								<li>Computing Conference 2020 (SAIC'20)</li>
-								<li>Future Technologies Conference (FTC'19) </li>
-							</ul>
-						</li>
-					</ul>
-					<ul>
-					    <li>
-					    	<b>[Editor]</b>
-					    	<ul>
-					    		<li>
-					    			International Journal of Information Retrieval Research (IJIRR)
-					    		</li>
-                            	<li> 
-                            		International Journal of Database Management Systems (IJDMS)
-                            	</li>
-                            	<li>
-                            		American Journal of Data Mining and Knowledge Discovery (AJDMKD)
-                            	</li>
+            <h3>Demo papers</h3>    
+            <table class="table table-hover">
+                <tbody>
+                    <tr>
+                        <td><span class="label label-primary">D5</span></td>
+                        <td>
+                            GQFast: Fast Graph Exploration with Context-Aware Autocompletion<br>
+                            <b>Chunbin Lin</b>, Jianguo Wang, Yannis Papakonstantinou<br>
+                            Proceedings of the International Conference on Data Engineering (<b>ICDE</b>), pages 1389-1390, 2017<br>
+                            <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7930086" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://youtu.be/dcnZTLQ15ik" class="btn btn-warning btn-xs">Demo Video</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">D4</span></td>
+                        <td>
+                            SpiderX: Fast XML Exploration System<br>
+                            <b>Chunbin Lin</b>, Jianguo Wang<br>
+                            Proceedings of International World Wide Web Conference (<b>WWW</b>), pages: 237-241, 2017<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3041021.3054727" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/WWW-2017a.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">D3</span></td>
+                        <td>
+                            Location-sensitive Query Auto-completion<br>
+                            <b>Chunbin Lin</b>, Jianguo Wang, Jiaheng Lu<br>
+                            Proceedings of International World Wide Web Conference (<b>WWW</b>), pages: 819-820, 2017<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3041021.3054205" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/WWW-2017b.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">D2</span></td>
+                        <td>
+                            Fashionista: A Fashion-aware Graphical System for Exploring Visually Similar Items<br>
+                            Ruining He, <b>Chunbin Lin</b>, Julian McAuley<br>
+                            Proceedings of the International Conference on World Wide Web (<b>WWW</b>), pages 199-202, 2016<br>
+                            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/2872518.2890534" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/WWW-2016.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="label label-primary">D1</span></td>
+                        <td>
+                            LotusX: A Position-Aware XML Graphical Search System with Auto-Completion<br>
+                            <b>Chunbin Lin</b>, Jiaheng Lu, Tok Wang Ling, Bogdan Cautis<br>
+                            Proceedings of the International Conference on Data Engineering (<b>ICDE</b>), pages 1265-1268, 2012<br>
+                            <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/6228184" class="btn btn-info btn-xs">Link</a>
+                            <a target="_blank" href="https://github.com/Chunbinlin/publication/blob/master/ICDE-2012.pdf" class="btn btn-warning btn-xs">PDF</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h2 id = "service">Academic Service</h2>    
+            <table class="table table-hover">
+                <tbody>
+                    <tr>
+                        <td>
+                            <button type="button" class="btn btn-info btn-xs">Program Committee</button>
+                            <ul>
+                                <li>The Web Conference (WWW'19)</li>
+                                <li>International Conference on Database Systems for Advanced Applications (DASFAA'19, DASFAA'20)</li>
+                                <li>International Joint Conferences on Artificial Intelligence (IJCAI'19, IJCAI'20)</li>
+                                <li>International Semantic Web Conference (ISWC'19)</li>
+                                <li>The ACM Special Interest Group on Management of Data (SIGMOD'19) (Industrial Track)</li>
+                                <li>International Conference on Data Mining (SDM'19, SDM'20)</li>
+                                <li>The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD'19, PAKDD'20)</li>
+                                <li>European Conference on Information Retrieval (ECIR'19, ECIR'20)</li>
+                                <li>International Conference on Data Storage and Data Engineering (DSDE'19)</li>
+                                <li>International Conference on Data Mining and Database (DMDB'19)</li>
+                                <li>Workshop on Scalable Cloud Data Management (SCDM'18, SCDM'19)</li>
+                                <li>Computing Conference 2020 (SAIC'20)</li>
+                                <li>Future Technologies Conference (FTC'19, FTC'20)</li>
                             </ul>
-                        </li>
-                     </ul>
-                     <ul>
-                     	<li>
-                            <b>[Reviewer]</b>
-					    	<ul>
-					    		<li>
-					    			The International Journal on Very Large Data Bases (VLDB Journal)
-					    		</li>
-					    		<li>
-					    			Transactions on Parallel and Distributed Systems
-					    		</li>
-                            	<li>
-                            		Distributed and Parallel Databases 
-                            	</li>
-								<li>
-                                    Concurrency and Computation: Practice and Experience
-                                </li>
-                            	<li>
-                            		International Journal of Information Retrieval Research (IJIRR)
-                            	</li>
-                            	<li>
-                            		Computer Standards & Interfaces
-                            	</li>
-                            	<li>
-                            		Frontiers of Information Technology & Electronic Engineering
-                            	</li>
-                            	<li>
-                            		Advances in Science, Technology and Engineering Systems Journal (ASTES)
-                            	</li>
-                            	<li>
-                            		Information Sciences
-                            	</li>
-                            	<li>
-                            		IEEE Access Journal
-                            	</li>
-                            	<li>
-                            		Transactions on Knowledge and Data Engineering (TKDE)
-                            	</li>
-                            	<li>
-                            		Information Systems
-                            	</li>
-                            	<li> 
-                            		International Journal of Data Mining & Knowledge Management Process (IJDKP)
-                            	</li>
-                            	<li>
-                            		International Journal of Data Warehousing and Mining (IJDWM)
-                            	</li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" class="btn btn-info btn-xs">Journal Editor</button>
+                            <ul>
+                                <li>International Journal of Information Retrieval Research (IJIRR)</li>
+                                <li>International Journal of Database Management Systems (IJDMS)</li>
+                                <li>American Journal of Data Mining and Knowledge Discovery (AJDMKD)</li>
                             </ul>
-					    </li>
-					    <!-- <br>
-					    <li><b>Conference External Reviewer:</b><br>
-					        <a href="http://vldb2010.org/proceedings/files/frontmatter/ExtReviewer.pdf" target="_blank">VLDB 2010</a>, <a href="https://books.google.com/books?id=Y7uqCAAAQBAJ&pg=PR14&lpg=PR14&dq=apweb+chunbin+lin&source=bl&ots=qDL0ndx0Wo&sig=vZT2CfV2vHW3Bv5PP3zH9WEmDps&hl=en&sa=X&ved=0ahUKEwjoxdzehq3XAhVH3WMKHfHUD7gQ6AEIOjAD#v=onepage&q=apweb%20chunbin%20lin&f=false" target="_blank">APWeb 2011</a>, SIGMOD 2017
-					    </li> -->
-					</ul>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<hr align="left" width="800">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" class="btn btn-info btn-xs">Journal Reviewer</button>
+                            <ul>
+                                <li>The International Journal on Very Large Data Bases (VLDB Journal)</li>
+                                <li>Transactions on Parallel and Distributed Systems</li>
+                                <li>Distributed and Parallel Databases</li>
+                                <li>Concurrency and Computation: Practice and Experience</li>
+                                <li>International Journal of Information Retrieval Research (IJIRR)</li>
+                                <li>Computer Standards & Interfaces</li>
+                                <li>Frontiers of Information Technology & Electronic Engineering</li>
+                                <li>Advances in Science, Technology and Engineering Systems Journal (ASTES)</li>
+                                <li>Information Sciences</li>
+                                <li>IEEE Access Journal</li>
+                                <li>Transactions on Knowledge and Data Engineering (TKDE)</li>
+                                <li>Information Systems</li>
+                                <li>International Journal of Data Mining & Knowledge Management Process (IJDKP)</li>
+                                <li>International Journal of Data Warehousing and Mining (IJDWM)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
-<!-- 
-	<table width="800">
-		<tbody>
-			<tr>
-				<td>
-					<font size="+2"><b>Teaching Assistantships </b></font> <br>
-					<ul>
-						
-					    <li>
-					    	CSE 232. <b><a href="http://db.ucsd.edu/static/CSE232S18/" target="_blank">Principles of Database Systems</a></b>. University of California, San Diego. Spring 2018. <br>
-							Instructor: Prof. Yannis Papakonstantinou
-							<br>
-							<div class="card" style="width:650;">
-							  <div class="card-body">
-							    CSE232 teaches the basic principles of the internals of SQL databases. This includes data structures, query processing, query optimization and transaction processing in SQL relational database management systems. The last weeks also cover database technologies beyond the relational data model and centralized query processing: Query processing on semistructured data, query processing in virtual databases, incremental view maintenance, column databases, parallel databases.
-							  </div>
-							</div>
-					    </li>
-					</ul>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<hr  align="left" width="800"> -->
-
-<!-- 
-	<table width="1000">
-		<tbody>
-			<tr>
-				<td>
-					<font size="+2"><b>Advising</b></font> <br>
-					It is a great pleasure for me to work with these excellent students.<br>
-					<ul>
-						
-					    <li><b>Current:</b><br>
-					        Sai Padigi (MS, UCSD)<br>
-							<a href="http://sujithvadakkepat.com/" target="_blank">Sujith Vadakkepat</a> (MS, UCSD)<br>
-							Frank Sun (MS, Washington University in St. Louis)<p>
-					    </li>
-					   
-					    <li> <b>Alumni:</b><br>
-					        Meng Xue (MS, UCSD, 2014; First employment: Oracle)<br>
-					        Benjamin Mandel (MS, UCSD, 2014)<br>
-					        <a href="http://m-sp.org/" target="_blank">Matthias Springer</a> (Visiting student, UCSD, 2014; PhD at Tokyo Institute of Technology)<br>
-					    </li>
-					</ul>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<hr  align="left" width="1000"> -->
-
-	
-
-	<!-- <table width="800">
-		<tbody>
-			<tr>
-				<td>
-					<font size="+2"><b>Internships</b></font> <br>
-					<ul>
-						<li>
-					        <a href="https://aws.amazon.com/redshift" target="_blank">Redshift</a>, <a href="https://www.informatica.com" target="_blank">Amazon AWS</a>, Palo Alto, CA [06-09/2017]<br>
-					        Project: Big Nested Data Management.<br>
-					        Mentor: <a href="http://www.pandis.net/" target="_blank">Ippokratis Pandis</a>, <a href="https://www.linkedin.com/in/fabian-nagel-55093455/" target="_blank">Fabian Nagel</a>. Manager: <a href="https://www.linkedin.com/in/mpetropo/" target="_blank">Michalis Petropoulos</a><br>
-					       
-					    </li>
-					    <li>
-					        <a href="https://www.informatica.com/products/data-quality/rev.html#fbid=aVPEDtXhKTC" target="_blank">Data Preparation (Rev)</a>, <a href="https://www.informatica.com" target="_blank">Informatica</a>, Redwood City, CA [06-09/2014, 06-09/2015]<br>
-					        Project: 1. Design and implement the join suggestion feature in Informatica Rev. [<a href="homepage/papers/rev.pdf"  target="_blank">Description</a>]<br>
-					        2. Design and implement the structured data extraction feature in Informatica Rev. [<a href="homepage/papers/rev.pdf"  target="_blank">Description</a>]<br>
-					        Manager: <a href="https://www.linkedin.com/in/mohansankaran" target="_blank">Mohan Sankaran</a><br>
-					    </li>
-					    <li>
-					    	<a href="http://www.comp.nus.edu.sg/" target="_blank">School of Computing</a>, <a href="http://www.nus.edu.sg/" target="_blank">National University of Singapore</a>, Singapore [06-09/2010]<br>
-					    	Project: XML query processing, which includes XML keyword search and XML twig pattern matching<br>
-					        Manager: Prof. <a href="http://www.comp.nus.edu.sg/~lingtw/" target="_blank">Ling Tok Wang</a><br>
-					    </li>
-					    <li>
-					        <a href="https://www.research.ibm.com/labs/china/" target="_blank">IBM China Research Laboratory (CRL)</a>, Beijing, China [11/2009 - 03/2010]<br>
-					        Project: Query processing for semi-structured and structured data<br>
-					        Manager: Hanyu Li
-					    </li>
-
-					</ul>
-				</td>
-			</tr>
-		</tbody>
-	</table> -->
-	
-<!-- 	<table width="1000">
-		<tbody>
-			<tr>
-				<td>
-					<font size="+2"><b>Demo Systems</b></font> <br>
-					<table width="100%" border="0" style="padding: 15px;">
-						<tr>
-							<td width="33%">
-								<a href="http://chunbinlin.com/demoGQFast/" target="_blank">GQ-Fast: A Context-aware Graphical System for Exploring Big Graph via Auto-Completion</a><br>
-						        <iframe width="280" height="160" src="https://www.youtube.com/embed/UtiKg9WcbK0" frameborder="0" allowfullscreen></iframe><p>
-						    </td>
-							<td width="33%">
-								<a href="http://132.239.95.211:8080/demowww/index.jsp" target="_blank">Fashionista: A Fashion-aware Graphical System for Exploring Visually Similar Items</a><br>
-						        <img src="homepage/images/fashionista.png" width="280"  height="160">
-							</td>
-							<td width="33%">
-								<a href='homepage/papers/ICDE-2012-DEMO.pdf'  target="_blank">LotusX: A Position-Aware XML Graphical Search System with Auto-Completion</a> <br>
-						        <iframe width="280" height="160" src="https://www.youtube.com/embed/jDJMIg_omFI" frameborder="0" allowfullscreen></iframe>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</tbody>
-	</table> -->
-</left>
-
-<div style="width:200px; height:100px">
-	<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=nDISe79-oWj04NhPfvhGlnNS5tFWG4uK-GoZ2VApX3U&cl=ffffff&w=a"></script>
+		</article>
+        </section>
+        
+        <aside class="sidebar">
+            <ul>
+                <li>
+                    <h4>News</h4>
+                    <ul>
+                        <li>04/2020. Paper "Boosting Approximate Dictionary-based Entity Extraction with Synonyms" is accepted by Information Sciences</li>
+                        <li>02/2020. Paper "Approximate Analytics System over Compressed Time Series with Tight Deterministic Error Guarantees" is accepted by PVLDB'20</li>
+                        <li>02/2020. Paper "Deep Neural Networks based Motif Discovery with Similarity Guarantees" is accepted by DASFAA'20</li>
+                        <li>02/2020. Paper "Fast Error-tolerant Location-aware Query Autocompletion" is accepted by ICDE'20</li>
+                        <li>11/2019. Gave a talk about "string similarity joins" at Renmin University of China</li>
+                        <li>11/2019. Gave a talk about "approximate query processing" at Tsinghua University</li>
+                        <li>11/2019. Gave a tutorial talk "syn­ergy of data­base tech­niques and ma­chine learn­ing mod­els for string sim­il­ar­ity search and join" at CIKM'19 with Jiaheng Lu, Jin Wang, Chen Li</li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+    	<div class="clear"></div>
+    </div>
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; Chunbinlin.com 2020</p>
+         </div>
+    </footer>
 </div>
 </body>
 </html>
