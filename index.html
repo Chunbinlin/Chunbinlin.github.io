@@ -7,6 +7,19 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script>
+function toggleOldNews() {
+    const oldNews = document.getElementById("old-news");
+    const btn = document.getElementById("toggle-btn");
+    if (oldNews.style.display === "none") {
+        oldNews.style.display = "block";
+        btn.innerHTML = "Hide older news ▲";
+    } else {
+        oldNews.style.display = "none";
+        btn.innerHTML = "Show older news ▼";
+    }
+}
+</script>
 </head>
 <body>
 <div id="container">
@@ -489,31 +502,41 @@
                 <li>
                     <h4>News</h4>
                     <ul>
+                        <!-- News after 2021 (Always visible) -->
                         <li>12/2024. I joined MongoDB <a href="https://www.mongodb.com/products/platform/atlas-search" target="_blank">Atlas Search</a> team</li>
                         <li>12/2022. I am honored to be a Program Committee member of <b>IJCAI</b>'23, <b>KDD</b>'23</li>
                         <li>12/2022. US patent "Predicting query performance for prioritizing query execution" is granted. <b>US-11537616-B1</b> </li>
                         <li>08/2022. I am honored to be a program Committee member of <b>WSDM</b>'23, <b>AAAI</b>'23, and <b>DASFAA</b>'23</li>
-                        <li>06/2022. I am honored to serve as a session chair of <b>SIGMOD</b>'22</li>
-                        <li>03/2022. I am honored to be a Program Committee member of <b>ICDE</b>'23</li>
-                        <li>12/2021. I am honored to be a Program Committee member of <b>SIGKDD</b>'22</li>
-                        <li>11/2021. Paper "Highly Efficient String Similarity Search and Join over Compressed Indexes" is accepted by <b>ICDE</b>'22</li>
-                        <li>07/2021. I am honored to be a Program Committee member of <b>IJCAI</b>'22</li>
-                        <li>07/2021. I am honored to be a Program Committee member of <b>AAAI</b>'22</li>
-                        <li>05/2021. I am honored to be a Program Committee member of <b>ICDE</b>'22</li>
-                        <li>04/2021. I am honored to be a Program Committee member of <b>VLDB</b>'22</li>
-                    	<li>02/2021. I am honored to be a Program Committee member of <b>SIGMOD</b>'22</li>
-                        <li>12/2020. Tutorial paper "Workload-Aware Performance Tuning for Autonomous DBMSs" is accepted by <b>ICDE</b>'21</li>
-                        <li>08/2020. I am honored to be a Program Committee member of <b>VLDB</b>'21</li>
-                        <li>08/2020. I am honored to serve as a session chair of <b>VLDB</b>'20 for four sessions</li>
-                        <li>06/2020. I am honored to be a Program Committee member of <b>SIGMOD</b>'21</li>
-                        <li>06/2020. I am honored to be a Program Committee member of <b>EDBT</b>'21</li>
-                        <li>04/2020. Paper "Boosting Approximate Dictionary-based Entity Extraction with Synonyms" is accepted by Information Sciences</li>
-                        <li>02/2020. Paper "Approximate Analytics System over Compressed Time Series with Tight Deterministic Error Guarantees" is accepted by PVLDB'20</li>
-                        <li>02/2020. Paper "Deep Neural Networks based Motif Discovery with Similarity Guarantees" is accepted by DASFAA'20</li>
-                        <li>02/2020. Paper "Fast Error-tolerant Location-aware Query Autocompletion" is accepted by ICDE'20</li>
-                        <li>11/2019. Gave a talk about "string similarity joins" at Renmin University of China</li>
-                        <li>11/2019. Gave a talk about "approximate query processing" at Tsinghua University</li>
-                        <li>11/2019. Gave a tutorial talk "syn­ergy of data­base tech­niques and ma­chine learn­ing mod­els for string sim­il­ar­ity search and join" at CIKM'19 with Jiaheng Lu, Jin Wang, Chen Li</li>
+
+                        <!-- Toggle Button -->
+                        <li>
+                            <button class="btn btn-default btn-xs" onclick="toggleOldNews()" id="toggle-btn">Show older news ▼</button>
+                        </li>
+
+                        <!-- Hidden news (before 2022) -->
+                        <div id="old-news" style="display: none;">
+                            <li>06/2022. I am honored to serve as a session chair of <b>SIGMOD</b>'22</li>
+                            <li>03/2022. I am honored to be a Program Committee member of <b>ICDE</b>'23</li>
+                            <li>12/2021. I am honored to be a Program Committee member of <b>SIGKDD</b>'22</li>
+                            <li>11/2021. Paper "Highly Efficient String Similarity Search and Join over Compressed Indexes" is accepted by <b>ICDE</b>'22</li>
+                            <li>07/2021. I am honored to be a Program Committee member of <b>IJCAI</b>'22</li>
+                            <li>07/2021. I am honored to be a Program Committee member of <b>AAAI</b>'22</li>
+                            <li>05/2021. I am honored to be a Program Committee member of <b>ICDE</b>'22</li>
+                            <li>04/2021. I am honored to be a Program Committee member of <b>VLDB</b>'22</li>
+                            <li>02/2021. I am honored to be a Program Committee member of <b>SIGMOD</b>'22</li>
+                            <li>12/2020. Tutorial paper "Workload-Aware Performance Tuning for Autonomous DBMSs" is accepted by <b>ICDE</b>'21</li>
+                            <li>08/2020. I am honored to be a Program Committee member of <b>VLDB</b>'21</li>
+                            <li>08/2020. I am honored to serve as a session chair of <b>VLDB</b>'20 for four sessions</li>
+                            <li>06/2020. I am honored to be a Program Committee member of <b>SIGMOD</b>'21</li>
+                            <li>06/2020. I am honored to be a Program Committee member of <b>EDBT</b>'21</li>
+                            <li>04/2020. Paper "Boosting Approximate Dictionary-based Entity Extraction with Synonyms" is accepted by Information Sciences</li>
+                            <li>02/2020. Paper "Approximate Analytics System over Compressed Time Series with Tight Deterministic Error Guarantees" is accepted by PVLDB'20</li>
+                            <li>02/2020. Paper "Deep Neural Networks based Motif Discovery with Similarity Guarantees" is accepted by DASFAA'20</li>
+                            <li>02/2020. Paper "Fast Error-tolerant Location-aware Query Autocompletion" is accepted by ICDE'20</li>
+                            <li>11/2019. Gave a talk about "string similarity joins" at Renmin University of China</li>
+                            <li>11/2019. Gave a talk about "approximate query processing" at Tsinghua University</li>
+                            <li>11/2019. Gave a tutorial talk "synergy of database techniques and machine learning models for string similarity search and join" at CIKM'19</li>
+                        </div>
                     </ul>
                 </li>
             </ul>
